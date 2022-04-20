@@ -6,5 +6,6 @@ print(c.format(userage))
 x=int(userage)
 y=100-x
 
-w= " The user will turn 100 years in  {} years"
-print(w.format(y))
+year = 2022 + y 
+w= " The user will turn 100 years in {}"  
+print(w.format(year))
